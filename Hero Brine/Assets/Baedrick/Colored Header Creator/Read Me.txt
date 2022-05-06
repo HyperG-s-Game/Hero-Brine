@@ -1,0 +1,12 @@
+Created by Dedrick "Baedrick" Koh
+Version 1.0.r0
+
+To open colored header creator use:
+Tools > Colored Header Creator
+
+Do not modify the banner gameobject unless you know what you're doing.
+
+If the editor becomes unresponsive due to the header not drawing correctly, use "Delete All Headers".
+
+Any issues please report in an email to dedrickkoh1@gmail.com
+In the email please state what were the steps you took to encounter the error. Screenshots are encouraged.

@@ -14,6 +14,8 @@ namespace GamerWolf.Utils{
         LevelStraightRoad_6,
         LevelStraightRoad_7,
         LevelStraightRoad_8,
+        LevelStraightRoad_9,
+        LevelStraightRoad_10,
 
         // Right turn Only........
         RightTurnOnly_1,
@@ -24,6 +26,8 @@ namespace GamerWolf.Utils{
         RightTurnOnly_6,
         RightTurnOnly_7,
         RightTurnOnly_8,
+        RightTurnOnly_9,
+        RightTurnOnly_10,
 
         // Left Turn Only.............
         LeftTurnOnly_1,
@@ -34,9 +38,13 @@ namespace GamerWolf.Utils{
         LeftTurnOnly_6,
         LeftTurnOnly_7,
         LeftTurnOnly_8,
+        LeftTurnOnly_9,
+        LeftTurnOnly_10,
 
         // T_Section..........
-        T_Section,
+        T_Section_1,
+        T_Section_2,
+        T_Section_3,
 
         // Other
         puddel_Fall_Effect,

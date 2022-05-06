@@ -8,7 +8,7 @@ namespace HeroBrine {
         [SerializeField] private PlayerController playerController;
         [SerializeField] private Transform startingPoint;
         [SerializeField] private ObjectPoolingManager poolingManager;
-        [SerializeField] private PoolObjectTag[] straingRoadTagArray,rightTurnOnlyTagArray,leftTurnOnlyTagArray;
+        [SerializeField] private PoolObjectTag[] straingRoadTagArray,rightTurnOnlyTagArray,leftTurnOnlyTagArray,tSection;
         private LevelVariations newVariations;
         private bool canSpawn;
 
@@ -103,7 +103,8 @@ namespace HeroBrine {
 
         }
         private void SpawnT_Section(){
-            GameObject levelObject = poolingManager.SpawnFromPool(PoolObjectTag.T_Section,newVariations.GetNewObstacleSpawnPoint().position,newVariations.GetNewObstacleSpawnPoint().rotation);
+            int rand = UnityEngine.Random.Range(0,tSection.Length);
+            GameObject levelObject = poolingManager.SpawnFromPool(tSection[rand],newVariations.GetNewObstacleSpawnPoint().position,newVariations.GetNewObstacleSpawnPoint().rotation);
             LevelVariations Obstaclelevel = levelObject.GetComponent<LevelVariations>();
             newVariations = Obstaclelevel;
         }
