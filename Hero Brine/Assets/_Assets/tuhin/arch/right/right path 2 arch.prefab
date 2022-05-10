@@ -9639,7 +9639,6 @@ GameObject:
   - component: {fileID: 2157287583805773977}
   - component: {fileID: 7070683978024040436}
   - component: {fileID: 5817859836634048266}
-  - component: {fileID: 8073976025498884206}
   m_Layer: 0
   m_Name: arch STARIGHT6
   m_TagString: Untagged
@@ -15019,20 +15018,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2465603310331454484}
   m_Mesh: {fileID: 0}
---- !u!64 &8073976025498884206
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2465603310331454484}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &2537938641390114236
 GameObject:
   m_ObjectHideFlags: 0
@@ -15949,7 +15934,6 @@ GameObject:
   - component: {fileID: 9181724274709984124}
   - component: {fileID: 52967502608260113}
   - component: {fileID: 3612168953383898351}
-  - component: {fileID: 1337769607532934027}
   m_Layer: 0
   m_Name: arch STRAIGHT1
   m_TagString: Untagged
@@ -21706,20 +21690,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4659999734728265713}
-  m_Mesh: {fileID: 0}
---- !u!64 &1337769607532934027
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4659999734728265713}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!1 &5218904143950288519
 GameObject:
