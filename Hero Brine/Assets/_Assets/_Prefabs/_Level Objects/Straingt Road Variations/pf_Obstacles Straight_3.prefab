@@ -939,7 +939,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 9.6, y: 17.278193, z: 87.34579}
+  m_Size: {x: 37.28, y: 17.278193, z: 87.34579}
   m_Center: {x: -0.08652878, y: 8.139096, z: 43.710506}
 --- !u!1 &6574282419265002793
 GameObject:
@@ -1173,6 +1173,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2068935829391020978}
     m_Modifications:
+    - target: {fileID: 24938090423319571, guid: e42504ad02976324a88d4a254c7773bc, type: 3}
+      propertyPath: m_SelectedEditorRenderState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 673973419354265811, guid: e42504ad02976324a88d4a254c7773bc, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1188,6 +1192,10 @@ PrefabInstance:
     - target: {fileID: 1578709155825037515, guid: e42504ad02976324a88d4a254c7773bc, type: 3}
       propertyPath: m_Name
       value: arch
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868636704446951595, guid: e42504ad02976324a88d4a254c7773bc, type: 3}
+      propertyPath: m_SelectedEditorRenderState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3257733272067174190, guid: e42504ad02976324a88d4a254c7773bc, type: 3}
       propertyPath: m_Mesh
@@ -1209,9 +1217,17 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6196736642198659883, guid: e42504ad02976324a88d4a254c7773bc, type: 3}
+      propertyPath: m_SelectedEditorRenderState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7091684582481002498, guid: e42504ad02976324a88d4a254c7773bc, type: 3}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7091684582481002498, guid: e42504ad02976324a88d4a254c7773bc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2908709
       objectReference: {fileID: 0}
     - target: {fileID: 7091684582481002498, guid: e42504ad02976324a88d4a254c7773bc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1219,7 +1235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7091684582481002498, guid: e42504ad02976324a88d4a254c7773bc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.0715
       objectReference: {fileID: 0}
     - target: {fileID: 7091684582481002498, guid: e42504ad02976324a88d4a254c7773bc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1272,6 +1288,10 @@ PrefabInstance:
     - target: {fileID: 8990259093524220080, guid: e42504ad02976324a88d4a254c7773bc, type: 3}
       propertyPath: m_VersionIndex
       value: 4150
+      objectReference: {fileID: 0}
+    - target: {fileID: 9117937069358555698, guid: e42504ad02976324a88d4a254c7773bc, type: 3}
+      propertyPath: m_SelectedEditorRenderState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e42504ad02976324a88d4a254c7773bc, type: 3}

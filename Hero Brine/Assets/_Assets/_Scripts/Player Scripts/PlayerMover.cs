@@ -115,12 +115,6 @@ namespace HeroBrine {
             }else if(rb.velocity.y > 0){
                 rb.velocity += Vector3.up * gravity * (lowJumpMultiplier - 1) * Time.deltaTime;
             }
-            // velocity.y += gravity * Time.deltaTime;
-            // // controller.Move(velocity * fallMultiplier * Time.deltaTime);
-            
-            // if(IsGrounded() && velocity.y < 0f){
-            //     velocity.y = -2f;
-            // }
         }
 
         
@@ -145,7 +139,6 @@ namespace HeroBrine {
                 Debug.Log("Jump");
                 CancelInvoke(nameof(ResetJump));
                 Invoke(nameof(ResetJump),1f);
-                // StartCoroutine(JumpEventRoutine());
                 if(IsGrounded()){
                     velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
                 }
